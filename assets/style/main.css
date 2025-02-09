@@ -403,6 +403,7 @@ Esconder o texto usar o overflow / text-overflow / definir tamanho e white-wrap;
     transition: all .3s ease;
     cursor: pointer;
     background-color: transparent;
+    font-size: 1.7rem;
 }
 
 .left > button:hover {
@@ -638,16 +639,20 @@ footer {
     }
 
     .box-infos h4 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     .box-infos p {
-        font-size: 1.5em;
+        font-size: 1.39rem;
         margin-bottom: 10px;
     }
     
     .box-infos span {
-        font-size: 2.2rem;
+        font-size: 2.0rem;
+    }
+
+    .box-infos  {
+        gap: 1rem;
     }
 
     
@@ -721,7 +726,7 @@ footer {
     }
 
     #desc {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .shoes-header h2 {
@@ -755,6 +760,10 @@ footer {
 
 
 @media screen and (max-width: 512px) {
+
+    html {
+        font-size: 58.5%;
+    }
 
     .box .box-img img {
         width: 85%;
@@ -808,9 +817,15 @@ footer {
 
     .left {
         width: 70%;
+        gap: .5rem;
+    }
+
+    .popUp .content-popUp > span {
+        top: 0px;
+        right: 5px;
+        font-size: 2.5rem;
     }
 }
-
 
 
 @media screen and (max-width: 713px) {
@@ -844,7 +859,6 @@ footer {
         min-width: 400px;
         width: 100%;
         height: 240px;
-
     }
 
     .right {
